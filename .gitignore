@@ -1,0 +1,30 @@
+# Arduino  
+*.bak  
+*.tmp  
+build/  
+arduino-*/  
+libraries/  
+  
+# 系统文件  
+.DS_Store  
+Thumbs.db  
+desktop.ini  
+  
+# 日志  
+*.log  
+  
+# 敏感信息  
+secrets.h  
+wifi_config.h  
+credentials.h  
+  
+# 编译产物  
+*.elf  
+*.bin  
+*.map  
+  
+# IDE  
+.vscode/  
+.idea/  
+*.swp  
+*.swo  
